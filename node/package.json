@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-learning-project",
+  "version": "1.0.0",
+  "description": "Node.js深入学习项目 - 从基础到高级",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "stage1": "node learning-examples/stage1-examples.js",
+    "test": "echo \"暂无测试\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "learning",
+    "backend",
+    "javascript"
+  ],
+  "author": "Node.js学习者",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+} 
